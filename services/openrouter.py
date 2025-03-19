@@ -19,12 +19,12 @@ class OpenRouterService:
             headers = {
                 "Authorization": f"Bearer {settings.Settings.OPENROUTER_API_KEY}",
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://github.com/your-repo",
+                "HTTP-Referer": "https://github.com/hilman120111111/Telegram-AI-Bot",
                 "X-Title": "Telegram Bot"
             }
             
             data = {
-                "model": "openai/gpt-3.5-turbo",
+                "model": "deepseek/deepseek-chat:free",
                 "messages": messages
             }
             

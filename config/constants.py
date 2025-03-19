@@ -10,4 +10,4 @@ LANGUAGE_PROMPTS = {
 
 DEFAULT_PROMPT = "You are a friendly AI assistant. Respond in the same language as the user's message."
 MAX_CONTEXT_LENGTH = 4
-ESCAPE_CHARS = '_[]()~>#+-=|{}.!'
+ESCAPE_CHARS = "_[]()~>#+-=|{}.!"
