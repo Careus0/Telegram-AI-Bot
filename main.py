@@ -1,8 +1,8 @@
 import logging
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from config import settings
-from handlers.message_handlers import MessageHandlers
-from handlers.command_handlers import start
+from handlers.message import MessageHandlers
+from handlers.command import start
 
 # Setup logging
 logging.basicConfig(

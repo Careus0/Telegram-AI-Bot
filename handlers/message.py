@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import CallbackContext
-from services.openrouter_service import OpenRouterService
+from services.openrouter import OpenRouterService
 from models.conversation import ConversationManager
-from utils.markdown_utils import escape_markdown
+from utils.markdown import escape_markdown
 import logging
 
 logger = logging.getLogger(__name__)
