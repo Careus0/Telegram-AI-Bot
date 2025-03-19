@@ -42,4 +42,4 @@ class OpenRouterService:
             return "Maaf, waktu permintaan ke API habis. Silakan coba lagi nanti."
         except Exception as e:
             logger.error(f"Error: {e}")
-            return "Maaf, terjadi kesalahan tak terduga." 
+            return f"Maaf, terjadi kesalahan tak terduga. {e}" 
