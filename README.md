@@ -39,16 +39,6 @@ Bot Telegram yang terintegrasi dengan OpenRouter API untuk memberikan respons AI
 ## Penggunaan
 - `/start` - Memulai percakapan dengan bot
 - Kirim pesan teks biasa untuk berinteraksi dengan AI
-## Kontribusi
-Kontribusi selalu diterima! Berikut cara berkontribusi:
-
-1. Fork proyek ini
-2. Buat branch fitur baru (`git checkout -b fitur/namafitur`)
-3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur baru'`)
-4. Push ke branch (`git push origin fitur/namafitur`)
-5. Buat Pull Request
-## Penafian
-Bot ini menggunakan layanan OpenRouter API. Pengembang tidak bertanggung jawab atas konten yang dihasilkan oleh AI.
 ## Kontak
 Untuk pertanyaan atau masukan, silakan hubungi:
 - Email: sakamotos@proton.me
