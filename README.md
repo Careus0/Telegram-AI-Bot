@@ -52,4 +52,3 @@ Bot ini menggunakan layanan OpenRouter API. Pengembang tidak bertanggung jawab a
 ## Kontak
 Untuk pertanyaan atau masukan, silakan hubungi:
 - Email: sakamotos@proton.me
-- Telegram: https://t.me/MrSakamoto0
