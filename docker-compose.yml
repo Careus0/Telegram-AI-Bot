@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  telegram-ai-bot:
+    build: .
+    container_name: ask-deepsek
+    restart: always
+    volumes:
+      - .:/app 
+    environment:
+      - ENV=production
