@@ -8,7 +8,10 @@ logger = logging.getLogger(__name__)
 class OpenRouterService:
     def get_response(self, prompt: str, context: list = None) -> str:
         try:
+            supported_languages = ['id', 'en', 'ja', 'zh-cn']
             user_language = detect(prompt)
+            if user_language not in supported_languages:
+                user_language = 'en' 
             system_prompt = constants.LANGUAGE_PROMPTS.get(user_language, constants.DEFAULT_PROMPT)
             
             messages = [{"role": "system", "content": system_prompt}]
