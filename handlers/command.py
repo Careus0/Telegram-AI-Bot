@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 async def start(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text(
-        "Halo! Saya adalah bot Telegram yang terintegrasi dengan AI.."
+        "Hi! I am a Telegram bot integrated with AI."
         )
 async def stat(update: Update, context: CallbackContext) -> None:
     try:
